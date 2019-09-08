@@ -14,6 +14,8 @@
 		85B14F132324DB0C00032C4A /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F122324DB0C00032C4A /* DiscoverTableViewController.swift */; };
 		85B14F152324DB1800032C4A /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F142324DB1800032C4A /* MessageTableViewController.swift */; };
 		85B14F172324DB2200032C4A /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F162324DB2200032C4A /* ProfileTableViewController.swift */; };
+		85B14F1A23252DD400032C4A /* VisitorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F1923252DD400032C4A /* VisitorTableViewController.swift */; };
+		85B14F1C2325394600032C4A /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F1B2325394600032C4A /* VisitorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		85B14F122324DB0C00032C4A /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
 		85B14F142324DB1800032C4A /* MessageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
 		85B14F162324DB2200032C4A /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		85B14F1923252DD400032C4A /* VisitorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorTableViewController.swift; sourceTree = "<group>"; };
+		85B14F1B2325394600032C4A /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,9 +149,19 @@
 		85B14F0D2324D9FE00032C4A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				85B14F1823252DB100032C4A /* Visitor */,
 				85B14F0E2324DAAB00032C4A /* MainViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		85B14F1823252DB100032C4A /* Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				85B14F1923252DD400032C4A /* VisitorTableViewController.swift */,
+				85B14F1B2325394600032C4A /* VisitorView.swift */,
+			);
+			path = Visitor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +238,9 @@
 				853DDF132324D05A001B7D18 /* AppDelegate.swift in Sources */,
 				85B14F152324DB1800032C4A /* MessageTableViewController.swift in Sources */,
 				85B14F132324DB0C00032C4A /* DiscoverTableViewController.swift in Sources */,
+				85B14F1A23252DD400032C4A /* VisitorTableViewController.swift in Sources */,
 				85B14F0F2324DAAB00032C4A /* MainViewController.swift in Sources */,
+				85B14F1C2325394600032C4A /* VisitorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
