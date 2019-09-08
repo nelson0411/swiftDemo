@@ -9,18 +9,14 @@
 /* Begin PBXBuildFile section */
 		853DDF132324D05A001B7D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853DDF122324D05A001B7D18 /* AppDelegate.swift */; };
 		853DDF152324D05A001B7D18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853DDF142324D05A001B7D18 /* ViewController.swift */; };
-		853DDF182324D05A001B7D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853DDF162324D05A001B7D18 /* Main.storyboard */; };
 		853DDF1A2324D05B001B7D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853DDF192324D05B001B7D18 /* Assets.xcassets */; };
-		853DDF1D2324D05B001B7D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853DDF1B2324D05B001B7D18 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		853DDF0F2324D05A001B7D18 /* weibo-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "weibo-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		853DDF122324D05A001B7D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853DDF142324D05A001B7D18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		853DDF172324D05A001B7D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		853DDF192324D05B001B7D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		853DDF1C2324D05B001B7D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853DDF1E2324D05B001B7D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,9 +52,7 @@
 			children = (
 				853DDF122324D05A001B7D18 /* AppDelegate.swift */,
 				853DDF142324D05A001B7D18 /* ViewController.swift */,
-				853DDF162324D05A001B7D18 /* Main.storyboard */,
 				853DDF192324D05B001B7D18 /* Assets.xcassets */,
-				853DDF1B2324D05B001B7D18 /* LaunchScreen.storyboard */,
 				853DDF1E2324D05B001B7D18 /* Info.plist */,
 			);
 			path = "weibo-ios";
@@ -122,9 +116,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853DDF1D2324D05B001B7D18 /* LaunchScreen.storyboard in Resources */,
 				853DDF1A2324D05B001B7D18 /* Assets.xcassets in Resources */,
-				853DDF182324D05A001B7D18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,25 +133,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		853DDF162324D05A001B7D18 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				853DDF172324D05A001B7D18 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		853DDF1B2324D05B001B7D18 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				853DDF1C2324D05B001B7D18 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		853DDF1F2324D05B001B7D18 /* Debug */ = {
@@ -282,8 +255,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "weibo-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,8 +274,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "weibo-ios/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
