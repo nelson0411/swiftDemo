@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		853DDF132324D05A001B7D18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853DDF122324D05A001B7D18 /* AppDelegate.swift */; };
 		853DDF1A2324D05B001B7D18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853DDF192324D05B001B7D18 /* Assets.xcassets */; };
+		8554D02C232FDF36008E6346 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8554D02B232FDF36008E6346 /* Tools.swift */; };
 		85B14F0F2324DAAB00032C4A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F0E2324DAAB00032C4A /* MainViewController.swift */; };
 		85B14F112324DAFA00032C4A /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F102324DAFA00032C4A /* HomeTableViewController.swift */; };
 		85B14F132324DB0C00032C4A /* DiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B14F122324DB0C00032C4A /* DiscoverTableViewController.swift */; };
@@ -23,6 +24,7 @@
 		853DDF122324D05A001B7D18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		853DDF192324D05B001B7D18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853DDF1E2324D05B001B7D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8554D02B232FDF36008E6346 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		85B14F0E2324DAAB00032C4A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		85B14F102324DAFA00032C4A /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		85B14F122324DB0C00032C4A /* DiscoverTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTableViewController.swift; sourceTree = "<group>"; };
@@ -160,6 +162,7 @@
 			children = (
 				85B14F1923252DD400032C4A /* VisitorTableViewController.swift */,
 				85B14F1B2325394600032C4A /* VisitorView.swift */,
+				8554D02B232FDF36008E6346 /* Tools.swift */,
 			);
 			path = Visitor;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				85B14F152324DB1800032C4A /* MessageTableViewController.swift in Sources */,
 				85B14F132324DB0C00032C4A /* DiscoverTableViewController.swift in Sources */,
 				85B14F1A23252DD400032C4A /* VisitorTableViewController.swift in Sources */,
+				8554D02C232FDF36008E6346 /* Tools.swift in Sources */,
 				85B14F0F2324DAAB00032C4A /* MainViewController.swift in Sources */,
 				85B14F1C2325394600032C4A /* VisitorView.swift in Sources */,
 			);

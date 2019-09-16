@@ -21,6 +21,10 @@ class HomeTableViewController: VisitorTableViewController {
         
         visitorView?.setupInfo(imageName: nil, title: "", color: UIColor.orange)
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        print(Tools.sharedTools())
+    }
 
     // MARK: - Table view data source
 
